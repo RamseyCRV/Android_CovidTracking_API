@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:layout_gravity="center">
+
+<LinearLayout
+    android:layout_margin="2dp"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/template_textview_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:layout_gravity="center"
+        android:text="Romania" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/template_textview_total_cases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/Black"
+        android:layout_margin="3dp"
+        android:text="5656565" />
+
+    <TextView
+        android:id="@+id/template_textview_active_cases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_margin="3dp"
+        android:textColor="@color/Black"
+        android:text="232252" />
+
+
+    <TextView
+        android:id="@+id/template_textview_total_recovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_margin="3dp"
+        android:textColor="@color/Green"
+        android:text="1551515" />
+
+    <TextView
+        android:id="@+id/template_textview_total_deaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_margin="3dp"
+        android:textColor="@color/Red"
+        android:text="3565656" />
+
+
+
+    <TextView
+        android:id="@+id/template_textview_new_deaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_margin="3dp"
+        android:textColor="@color/Red"
+        android:text="+1200" />
+
+
+    <TextView
+        android:id="@+id/template_textview_new_cases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/Blue"
+        android:layout_margin="3dp"
+        android:text="+5000" />
+
+
+    <TextView
+        android:id="@+id/template_textview_last_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/DarkGray"
+        android:layout_margin="3dp"
+        android:layout_gravity="right"
+        android:text="20/02/2020" />
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
